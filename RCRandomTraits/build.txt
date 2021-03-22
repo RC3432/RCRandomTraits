@@ -1,0 +1,9 @@
+displayName = RC3432's Random Traits
+author = RC3432
+version = 0.1
+homepage = https://discord.gg/yAp879sBZJ
+hideCode = true
+hideResources = true
+includeSource = false
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, .editorconfig, .gitignore, *.sln, Changelogs\*, *.md, secret\*
+includePDB = false

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RMaYE5SmfBowp5VAgKqgwU3G4dufsQlRSISOOQYh6k2HELtt7ikAWz8WqZetERSc6lmjMMhK8MGGEaQOnKP04g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TheBl\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\RCRandomTraits\\RCRandomTraits.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TheBl\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
