@@ -5,11 +5,11 @@ using Microsoft.Xna.Framework;
 namespace RCRandomTraits.Buffs
 {
 
-	public class Aggressive : ModBuff
+	public class ExpertFisher : ModBuff
 	{
 		public override void SetDefaults() {
-			DisplayName.SetDefault("Aggressive");
-			Description.SetDefault("-4 defense\n+2 to all damage\nImmune when using a calming potion");
+			DisplayName.SetDefault("Adept Fisherman");
+			Description.SetDefault("You are much for effective at fishing than the average human.\nYou can determine whats on your hook.\nLines never break.\nIncreases fishing power.");
 			Main.debuff[Type] = true;
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.buffNoSave[Type] = false;
@@ -17,10 +17,9 @@ namespace RCRandomTraits.Buffs
 
 		public override void Update(Player player, ref int buffIndex) {
 			{
-				player.allDamage += 2;
-				player.statDefense -= 4;
-				player.yoraiz0rEye += 1;
-				player.eyeColor = Color.DarkRed;
+				player.sonarPotion = true;
+				player.accFishingLine = true;
+				player.fishingSkill *= 2;
 			}
 
 		}

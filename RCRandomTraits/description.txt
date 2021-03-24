@@ -4,12 +4,14 @@ It comes with a configuration to choose the amount of feats or flaws you want.
 The best option for a regular playthrough is 2 Feats and 1 Flaw
 (This mod is still experimental. Bugs are still a posibility)
 
-
+!!! Make sure you customize the config before starting a new character !!!
 
 The following (Current) Feats are listed here:
 
 - Athletic: Improves your characters strength, which allows you to do athletic feats such as swimming or climbing.
 - Acrobatic: Massively increases your mobility and allows you to do dashes and double jumps.
+- Fisherman: Increased fishing power and ability to see what you caught.
+- Hardy: +4 defense and life regeneration.
 - Intellegent: Being one of great intellegence, magic and important information comes to you easily.
 - Stealthy: Allows you to avoid enemies and other players are more likely to be targeted than you are.
 - Persuasive: All items you buy from NPCs cost 20% less.
@@ -22,3 +24,10 @@ The following (Current) Flaws are listed here:
 - Deaf: Turns off all sounds in the world (Can be turned off in config if found annoying)
 - Feeble: Weakens your melee effectiveness and increases damage taken. (Immune if you have the Athletic Trait)
 - Aggressive: Reduces all defense by 4 and slightly increases all damage. (Immune if you currently have the Calming buff)
+
+
+Changelog:
+0.1 Offical Release
+0.2 Git add
+0.5 Added fisherman feat, debating a new form to get traits.
+0.6 Added ability to turn off feats or flaws inside the config / Added hardy feat

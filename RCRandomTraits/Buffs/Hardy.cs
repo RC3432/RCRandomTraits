@@ -5,11 +5,11 @@ using Microsoft.Xna.Framework;
 namespace RCRandomTraits.Buffs
 {
 
-	public class Aggressive : ModBuff
+	public class Hardy : ModBuff
 	{
 		public override void SetDefaults() {
-			DisplayName.SetDefault("Aggressive");
-			Description.SetDefault("-4 defense\n+2 to all damage\nImmune when using a calming potion");
+			DisplayName.SetDefault("Hardy");
+			Description.SetDefault("You are a expert of survival.\n+4 Defense\nIncreased Life Regeneration");
 			Main.debuff[Type] = true;
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.buffNoSave[Type] = false;
@@ -17,10 +17,10 @@ namespace RCRandomTraits.Buffs
 
 		public override void Update(Player player, ref int buffIndex) {
 			{
-				player.allDamage += 2;
-				player.statDefense -= 4;
-				player.yoraiz0rEye += 1;
-				player.eyeColor = Color.DarkRed;
+				player.statDefense += 4;
+				player.lifeRegen += 5;
+				
+				
 			}
 
 		}

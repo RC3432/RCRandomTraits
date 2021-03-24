@@ -23,6 +23,8 @@ namespace RCRandomTraits
 		public override ConfigScope Mode => ConfigScope.ServerSide;
 		public int TraitsPerPlayerCount = 2;
 		public int FlawsPerPlayerCount = 1;
+		public bool AllowFlaws;
+		public bool AllowFeats;
 		public bool AllowDeafAsAFlaw = true;
 	}
 }

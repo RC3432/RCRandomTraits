@@ -1,6 +1,6 @@
 displayName = RC3432's Random Traits
 author = RC3432
-version = 0.1
+version = 0.6
 homepage = https://discord.gg/yAp879sBZJ
 hideCode = true
 hideResources = true
